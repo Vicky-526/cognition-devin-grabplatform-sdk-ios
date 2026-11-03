@@ -7,33 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F91D642FC2110C5771312916AF2CE45 /* GrabApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AF30EF7ACF8F0F810F25C35086141D /* GrabApi.swift */; };
-		172CA4FE6B62D936816455818E7DFD8C /* GrabIdPartnerSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 500C8B116C9A13965E81F5639007F57D /* GrabIdPartnerSDK-dummy.m */; };
-		219E6489A5DC79700CCCE1BEFE0C2DBF /* IdTokenInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2F8DF78A7FBC9EF698049A1AFF50E8 /* IdTokenInfo.swift */; };
-		4C32B29D5E5880FFCE32B1AAAAFF2582 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		5B7007D62110EB0660DF9B49AFAFDC9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		5BFE6724119D9F75A8C4D97C96AF6AE7 /* Pods-GrabIdPartnerSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 807BC3AE9120B7DC1956E4B27711610E /* Pods-GrabIdPartnerSDK_Example-dummy.m */; };
-		750CF36C46264DCC664871AAA1340ED7 /* KeychainTokenWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6700179D54D7E0E79770759046DD00FC /* KeychainTokenWrapper.swift */; };
-		98F3A602D1419C22DF5D1309E74DC4AD /* GrabIdPartnerLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E83791B13509A061781C2B523E4727 /* GrabIdPartnerLogin.swift */; };
-		BF5D980775D839284C0772F9B418337C /* Pods-GrabIdPartnerSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 134728BF5AC96FC4713EA48569A58E23 /* Pods-GrabIdPartnerSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C56B07395A11C8728E9B5573FB7FF05A /* AuthorizationCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D17893B46D867DFAA26B3BC1950F063 /* AuthorizationCodeGenerator.swift */; };
-		CC74204679709DBFA9511EF4B3103555 /* Pods-GrabIdPartnerSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB576627E5A95F0CF787631ACF08CB89 /* Pods-GrabIdPartnerSDK_Tests-dummy.m */; };
-		CF90588122894309A483367AF832710E /* GrabIdPartnerSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BC1262A4C47425CA57E1D7E6E9CB73D /* GrabIdPartnerSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D0A172F76A3AD907FAA789A7E0452E73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		E1BDF5B5FB5CB54BA4E6BB87E02AD90B /* GrabIdPartnerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB45C25F793A73BB296E19E9B9D501C /* GrabIdPartnerError.swift */; };
-		EFF72E77B9742CB785170B57077AC0D4 /* Pods-GrabIdPartnerSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 761B0C0346E0DD4122866FC20105374F /* Pods-GrabIdPartnerSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FAD5D359554852CF2E4C5AED8347DBCA /* GrabIdPartnerSDK-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E460C62644C808459EF0D55674222D3 /* GrabIdPartnerSDK-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A65F689D8CA13842DED046111970C4B /* IdTokenInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AADE3C4DEF89D87B654E0329A491E90 /* IdTokenInfo.swift */; };
+		1CCB31D0A004E580EFCBEBA97F4FD338 /* GrabIdPartnerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F2A7279CD77606C6E1618BD5AB821A /* GrabIdPartnerError.swift */; };
+		387ECAB2F03C969EA30064128E717C74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB74A84DF62E0DBFFA4715EF79E08A1 /* Foundation.framework */; };
+		4C750830B24656A4C1C83FA43EC6BDC3 /* GrabIdPartnerSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7547B8572BF214E80FA45D7DE1545BD8 /* GrabIdPartnerSDK-dummy.m */; };
+		7652E535061A6C4F60CC9B601417AC56 /* Pods-GrabIdPartnerSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 807BC3AE9120B7DC1956E4B27711610E /* Pods-GrabIdPartnerSDK_Example-dummy.m */; };
+		7A9F9349BAE46A97B71D8897AB4DA9AE /* Pods-GrabIdPartnerSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 134728BF5AC96FC4713EA48569A58E23 /* Pods-GrabIdPartnerSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		955FB112A41184A138CF484D3A949418 /* AuthorizationCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7734A6B65EA07B6650A5C251DAFDC1D3 /* AuthorizationCodeGenerator.swift */; };
+		993379FD7AB8991158E7201ECE8496A5 /* KeychainTokenWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FDEAA6D193A8E054DF7B54D40DE5B3 /* KeychainTokenWrapper.swift */; };
+		B3839314C23256E279F238DB10B205B1 /* Pods-GrabIdPartnerSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB576627E5A95F0CF787631ACF08CB89 /* Pods-GrabIdPartnerSDK_Tests-dummy.m */; };
+		BA9FB3434333757F06D8D27321DEA236 /* Pods-GrabIdPartnerSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 761B0C0346E0DD4122866FC20105374F /* Pods-GrabIdPartnerSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFD8807689A5094F030458DE9B2906F5 /* GrabApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D9427C02712D8BBD2282D3F08DC89F /* GrabApi.swift */; };
+		C85D419D1BBE93EA1E6382DEBAEEE3FB /* GrabIdPartnerLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45062D17E00CB140EBFC0262C7614841 /* GrabIdPartnerLogin.swift */; };
+		D2612584170A527AD722E8B7F9F4BE16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB74A84DF62E0DBFFA4715EF79E08A1 /* Foundation.framework */; };
+		E2316B9C73637933A48DEC4A2B2FFF83 /* GrabIdPartnerSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6151026DEC6B2D0783F8B251421A1EC1 /* GrabIdPartnerSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6B6332891556E338369940A889C4246 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB74A84DF62E0DBFFA4715EF79E08A1 /* Foundation.framework */; };
+		F0E6B8649ADC81AA600AC8C1BE315D36 /* GrabIdPartnerSDK-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 593AA4767C32EE4E3A98865A5200B33F /* GrabIdPartnerSDK-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8DE77DCE281E29F8A9ED2096DC896DE7 /* PBXContainerItemProxy */ = {
+		AF46DA8DF191A33FF09CFFBACEA522CD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5D042BB620B553E5FC6D27A8B5E42ADE;
 			remoteInfo = "Pods-GrabIdPartnerSDK_Example";
 		};
-		FEBD707C2B55EF8D1AFCC121E9D62C2B /* PBXContainerItemProxy */ = {
+		D6945A57AF476FEE78FD9A79782C374C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -43,68 +43,69 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		063EB45CB02CFDB7F26C215CA1A1C0D0 /* GrabIdPartnerSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GrabIdPartnerSDK.modulemap; sourceTree = "<group>"; };
 		0AA66E197D1EF018F44BD78F5D7A2734 /* Pods-GrabIdPartnerSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GrabIdPartnerSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		134728BF5AC96FC4713EA48569A58E23 /* Pods-GrabIdPartnerSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GrabIdPartnerSDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		1AABBD2447C7CFDB05C8C3B02A9ADC78 /* GrabIdPartnerSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GrabIdPartnerSDK.xcconfig; sourceTree = "<group>"; };
-		1BC1262A4C47425CA57E1D7E6E9CB73D /* GrabIdPartnerSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GrabIdPartnerSDK-umbrella.h"; sourceTree = "<group>"; };
-		26AF30EF7ACF8F0F810F25C35086141D /* GrabApi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GrabApi.swift; path = GrabIdPartnerSDK/Classes/GrabApi.swift; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3472E3E3D6E832D38DD26B82FE4E0E80 /* Pods_GrabIdPartnerSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GrabIdPartnerSDK_Example.framework; path = "Pods-GrabIdPartnerSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CB74A84DF62E0DBFFA4715EF79E08A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3472E3E3D6E832D38DD26B82FE4E0E80 /* Pods-GrabIdPartnerSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GrabIdPartnerSDK_Example"; path = Pods_GrabIdPartnerSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39B9F13A87217DBE5DD474E132EA3545 /* Pods-GrabIdPartnerSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GrabIdPartnerSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
-		3AE77A627DFAF23E9440A82E16CF727B /* GrabIdPartnerSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GrabIdPartnerSDK-Info.plist"; sourceTree = "<group>"; };
 		3B80B6CC4AB795885DA4F5064FD3499F /* Pods-GrabIdPartnerSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GrabIdPartnerSDK_Example-Info.plist"; sourceTree = "<group>"; };
 		3D15B7898291B1F22268D3D23C375699 /* Pods-GrabIdPartnerSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GrabIdPartnerSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3D17893B46D867DFAA26B3BC1950F063 /* AuthorizationCodeGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthorizationCodeGenerator.swift; path = GrabIdPartnerSDK/Classes/AuthorizationCodeGenerator.swift; sourceTree = "<group>"; };
-		3FB45C25F793A73BB296E19E9B9D501C /* GrabIdPartnerError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GrabIdPartnerError.swift; path = GrabIdPartnerSDK/Classes/GrabIdPartnerError.swift; sourceTree = "<group>"; };
 		423E82847878BDDAAF4BEF09355CDF5D /* Pods-GrabIdPartnerSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GrabIdPartnerSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		450268595CB595729EAFA47A13847236 /* GrabIdPartnerSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GrabIdPartnerSDK.modulemap; sourceTree = "<group>"; };
-		500C8B116C9A13965E81F5639007F57D /* GrabIdPartnerSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GrabIdPartnerSDK-dummy.m"; sourceTree = "<group>"; };
+		45062D17E00CB140EBFC0262C7614841 /* GrabIdPartnerLogin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GrabIdPartnerLogin.swift; path = GrabIdPartnerSDK/Classes/GrabIdPartnerLogin.swift; sourceTree = "<group>"; };
+		4854BE86501C8AAE1169B1DBF2D9FD98 /* GrabIdPartnerSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GrabIdPartnerSDK.release.xcconfig; sourceTree = "<group>"; };
 		55D3B03C4614C886509E8D3AEC95DBE3 /* Pods-GrabIdPartnerSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GrabIdPartnerSDK_Tests.modulemap"; sourceTree = "<group>"; };
-		5E460C62644C808459EF0D55674222D3 /* GrabIdPartnerSDK-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GrabIdPartnerSDK-Bridging-Header.h"; path = "GrabIdPartnerSDK/Classes/GrabIdPartnerSDK-Bridging-Header.h"; sourceTree = "<group>"; };
+		593AA4767C32EE4E3A98865A5200B33F /* GrabIdPartnerSDK-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GrabIdPartnerSDK-Bridging-Header.h"; path = "GrabIdPartnerSDK/Classes/GrabIdPartnerSDK-Bridging-Header.h"; sourceTree = "<group>"; };
+		5AADE3C4DEF89D87B654E0329A491E90 /* IdTokenInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IdTokenInfo.swift; path = GrabIdPartnerSDK/Classes/IdTokenInfo.swift; sourceTree = "<group>"; };
+		6151026DEC6B2D0783F8B251421A1EC1 /* GrabIdPartnerSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GrabIdPartnerSDK-umbrella.h"; sourceTree = "<group>"; };
 		65EDC360E999ABD67D4D43A9C75BF63C /* Pods-GrabIdPartnerSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GrabIdPartnerSDK_Tests-Info.plist"; sourceTree = "<group>"; };
-		6700179D54D7E0E79770759046DD00FC /* KeychainTokenWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainTokenWrapper.swift; path = GrabIdPartnerSDK/Classes/KeychainTokenWrapper.swift; sourceTree = "<group>"; };
+		67D9427C02712D8BBD2282D3F08DC89F /* GrabApi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GrabApi.swift; path = GrabIdPartnerSDK/Classes/GrabApi.swift; sourceTree = "<group>"; };
+		684E3D9DF119E3C4885A7EF788615B40 /* GrabIdPartnerSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GrabIdPartnerSDK.debug.xcconfig; sourceTree = "<group>"; };
+		68F2A7279CD77606C6E1618BD5AB821A /* GrabIdPartnerError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GrabIdPartnerError.swift; path = GrabIdPartnerSDK/Classes/GrabIdPartnerError.swift; sourceTree = "<group>"; };
 		6A46AA1BF03CF97323E799562C2B9278 /* Pods-GrabIdPartnerSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GrabIdPartnerSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		6A9AFA22FC895E66A8854B8E3D5BE265 /* GrabIdPartnerSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GrabIdPartnerSDK-prefix.pch"; sourceTree = "<group>"; };
 		6E1229A7A79B6284D553431943F15D2D /* Pods-GrabIdPartnerSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GrabIdPartnerSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7164AB43AB02BE35687F38732EFA5C04 /* GrabIdPartnerSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GrabIdPartnerSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7547B8572BF214E80FA45D7DE1545BD8 /* GrabIdPartnerSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GrabIdPartnerSDK-dummy.m"; sourceTree = "<group>"; };
 		761B0C0346E0DD4122866FC20105374F /* Pods-GrabIdPartnerSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GrabIdPartnerSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
-		77A920BB3D6DA494244A61C518994A2F /* GrabIdPartnerSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GrabIdPartnerSDK.framework; path = GrabIdPartnerSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7734A6B65EA07B6650A5C251DAFDC1D3 /* AuthorizationCodeGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthorizationCodeGenerator.swift; path = GrabIdPartnerSDK/Classes/AuthorizationCodeGenerator.swift; sourceTree = "<group>"; };
+		77A920BB3D6DA494244A61C518994A2F /* GrabIdPartnerSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GrabIdPartnerSDK; path = GrabIdPartnerSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79F17BC1A414773EF3CBD63E3613AC2A /* Pods-GrabIdPartnerSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GrabIdPartnerSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7D0BFB6269D28B6859BA48B54273B318 /* GrabIdPartnerSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GrabIdPartnerSDK-Info.plist"; sourceTree = "<group>"; };
 		807BC3AE9120B7DC1956E4B27711610E /* Pods-GrabIdPartnerSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GrabIdPartnerSDK_Example-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A7B4FEE22E9EB3D14EE10C5B20B07673 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		ABD5FCE490E75D0347203F983DD0410A /* GrabIdPartnerSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GrabIdPartnerSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A51097233179DCE2664040E4AF5A4B84 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		B52800B6429BF564967E88B15CE18B7E /* Pods-GrabIdPartnerSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GrabIdPartnerSDK_Example.modulemap"; sourceTree = "<group>"; };
-		B6B30A2B4D5A0B5F4EF4186B267002D6 /* Pods_GrabIdPartnerSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GrabIdPartnerSDK_Tests.framework; path = "Pods-GrabIdPartnerSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6B30A2B4D5A0B5F4EF4186B267002D6 /* Pods-GrabIdPartnerSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GrabIdPartnerSDK_Tests"; path = Pods_GrabIdPartnerSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB576627E5A95F0CF787631ACF08CB89 /* Pods-GrabIdPartnerSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GrabIdPartnerSDK_Tests-dummy.m"; sourceTree = "<group>"; };
-		C06A7E7A286CE9C0CD9F1FAFD2E9C70F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		CFE6716E74720E8BFF100892911D9457 /* Pods-GrabIdPartnerSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GrabIdPartnerSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		EA2F8DF78A7FBC9EF698049A1AFF50E8 /* IdTokenInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IdTokenInfo.swift; path = GrabIdPartnerSDK/Classes/IdTokenInfo.swift; sourceTree = "<group>"; };
+		D22BDDE31C6E84A3D083253E64246218 /* GrabIdPartnerSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GrabIdPartnerSDK-prefix.pch"; sourceTree = "<group>"; };
+		E89E9377B01519B4AE9A70ABBD80CEE7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		F2CA8A06C4822D64049CCEC9F6E76692 /* Pods-GrabIdPartnerSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GrabIdPartnerSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F3E83791B13509A061781C2B523E4727 /* GrabIdPartnerLogin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GrabIdPartnerLogin.swift; path = GrabIdPartnerSDK/Classes/GrabIdPartnerLogin.swift; sourceTree = "<group>"; };
+		F3FDEAA6D193A8E054DF7B54D40DE5B3 /* KeychainTokenWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainTokenWrapper.swift; path = GrabIdPartnerSDK/Classes/KeychainTokenWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		26C83F21FBD0517DE9FA797A700523E2 /* Frameworks */ = {
+		1F76E09239052117FFA99FDE4FA9A764 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0A172F76A3AD907FAA789A7E0452E73 /* Foundation.framework in Frameworks */,
+				D2612584170A527AD722E8B7F9F4BE16 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		898BBFF102E9C00FB3C2AD7CDE1D5C64 /* Frameworks */ = {
+		55C41191EDA36AFB62DD0C181FDD5BC0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B7007D62110EB0660DF9B49AFAFDC9C /* Foundation.framework in Frameworks */,
+				E6B6332891556E338369940A889C4246 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F88CC0134B92F908CCBE2D7E3F5C0695 /* Frameworks */ = {
+		7B26F45A05CF9E4CAA8090547C8B5B16 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C32B29D5E5880FFCE32B1AAAAFF2582 /* Foundation.framework in Frameworks */,
+				387ECAB2F03C969EA30064128E717C74 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,31 +115,35 @@
 		247750D46C3140468FF4EFF17C6A4945 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F99319892B3BE653153A36CE1BB3787C /* GrabIdPartnerSDK */,
+				A9AE6D791A4942256EF5F1341E72AB00 /* GrabIdPartnerSDK */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		29056C6AF54E4C87448C6F4867BF936C /* Support Files */ = {
+		2743A1957797A80C0E8614CDE84FD632 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				450268595CB595729EAFA47A13847236 /* GrabIdPartnerSDK.modulemap */,
-				1AABBD2447C7CFDB05C8C3B02A9ADC78 /* GrabIdPartnerSDK.xcconfig */,
-				500C8B116C9A13965E81F5639007F57D /* GrabIdPartnerSDK-dummy.m */,
-				3AE77A627DFAF23E9440A82E16CF727B /* GrabIdPartnerSDK-Info.plist */,
-				6A9AFA22FC895E66A8854B8E3D5BE265 /* GrabIdPartnerSDK-prefix.pch */,
-				1BC1262A4C47425CA57E1D7E6E9CB73D /* GrabIdPartnerSDK-umbrella.h */,
+				7164AB43AB02BE35687F38732EFA5C04 /* GrabIdPartnerSDK.podspec */,
+				A51097233179DCE2664040E4AF5A4B84 /* LICENSE */,
+				E89E9377B01519B4AE9A70ABBD80CEE7 /* README.md */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/GrabIdPartnerSDK";
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		53CBFCB123B9295F09FC4177B73DFF65 /* Products */ = {
+		7AECBA61365544F357B06DE1C8710425 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				77A920BB3D6DA494244A61C518994A2F /* GrabIdPartnerSDK.framework */,
-				3472E3E3D6E832D38DD26B82FE4E0E80 /* Pods_GrabIdPartnerSDK_Example.framework */,
-				B6B30A2B4D5A0B5F4EF4186B267002D6 /* Pods_GrabIdPartnerSDK_Tests.framework */,
+				2CB74A84DF62E0DBFFA4715EF79E08A1 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		87FAFE5F6DA2F80DC8ABDA5880B9CB39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77A920BB3D6DA494244A61C518994A2F /* GrabIdPartnerSDK */,
+				3472E3E3D6E832D38DD26B82FE4E0E80 /* Pods-GrabIdPartnerSDK_Example */,
+				B6B30A2B4D5A0B5F4EF4186B267002D6 /* Pods-GrabIdPartnerSDK_Tests */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -160,12 +165,36 @@
 			path = "Target Support Files/Pods-GrabIdPartnerSDK_Example";
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		A9AE6D791A4942256EF5F1341E72AB00 /* GrabIdPartnerSDK */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				7734A6B65EA07B6650A5C251DAFDC1D3 /* AuthorizationCodeGenerator.swift */,
+				67D9427C02712D8BBD2282D3F08DC89F /* GrabApi.swift */,
+				68F2A7279CD77606C6E1618BD5AB821A /* GrabIdPartnerError.swift */,
+				45062D17E00CB140EBFC0262C7614841 /* GrabIdPartnerLogin.swift */,
+				593AA4767C32EE4E3A98865A5200B33F /* GrabIdPartnerSDK-Bridging-Header.h */,
+				5AADE3C4DEF89D87B654E0329A491E90 /* IdTokenInfo.swift */,
+				F3FDEAA6D193A8E054DF7B54D40DE5B3 /* KeychainTokenWrapper.swift */,
+				2743A1957797A80C0E8614CDE84FD632 /* Pod */,
+				C6EE0CA3BE1AE9149B12A231F26A7E9E /* Support Files */,
 			);
-			name = iOS;
+			name = GrabIdPartnerSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C6EE0CA3BE1AE9149B12A231F26A7E9E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				063EB45CB02CFDB7F26C215CA1A1C0D0 /* GrabIdPartnerSDK.modulemap */,
+				7547B8572BF214E80FA45D7DE1545BD8 /* GrabIdPartnerSDK-dummy.m */,
+				7D0BFB6269D28B6859BA48B54273B318 /* GrabIdPartnerSDK-Info.plist */,
+				D22BDDE31C6E84A3D083253E64246218 /* GrabIdPartnerSDK-prefix.pch */,
+				6151026DEC6B2D0783F8B251421A1EC1 /* GrabIdPartnerSDK-umbrella.h */,
+				684E3D9DF119E3C4885A7EF788615B40 /* GrabIdPartnerSDK.debug.xcconfig */,
+				4854BE86501C8AAE1169B1DBF2D9FD98 /* GrabIdPartnerSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GrabIdPartnerSDK";
 			sourceTree = "<group>";
 		};
 		CC4C6E37123E32B61BC0C637830248E1 /* Pods-GrabIdPartnerSDK_Tests */ = {
@@ -190,7 +219,7 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				247750D46C3140468FF4EFF17C6A4945 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				53CBFCB123B9295F09FC4177B73DFF65 /* Products */,
+				87FAFE5F6DA2F80DC8ABDA5880B9CB39 /* Products */,
 				D1A74167FC85C7D0FE723C4B160E2A58 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -207,63 +236,36 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				7AECBA61365544F357B06DE1C8710425 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D7836E0CD7FDB91FE24CECE2B0AF2796 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				ABD5FCE490E75D0347203F983DD0410A /* GrabIdPartnerSDK.podspec */,
-				C06A7E7A286CE9C0CD9F1FAFD2E9C70F /* LICENSE */,
-				A7B4FEE22E9EB3D14EE10C5B20B07673 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		F99319892B3BE653153A36CE1BB3787C /* GrabIdPartnerSDK */ = {
-			isa = PBXGroup;
-			children = (
-				3D17893B46D867DFAA26B3BC1950F063 /* AuthorizationCodeGenerator.swift */,
-				26AF30EF7ACF8F0F810F25C35086141D /* GrabApi.swift */,
-				3FB45C25F793A73BB296E19E9B9D501C /* GrabIdPartnerError.swift */,
-				F3E83791B13509A061781C2B523E4727 /* GrabIdPartnerLogin.swift */,
-				5E460C62644C808459EF0D55674222D3 /* GrabIdPartnerSDK-Bridging-Header.h */,
-				EA2F8DF78A7FBC9EF698049A1AFF50E8 /* IdTokenInfo.swift */,
-				6700179D54D7E0E79770759046DD00FC /* KeychainTokenWrapper.swift */,
-				D7836E0CD7FDB91FE24CECE2B0AF2796 /* Pod */,
-				29056C6AF54E4C87448C6F4867BF936C /* Support Files */,
-			);
-			name = GrabIdPartnerSDK;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		46869A39AA70BD7BCB3AF70A37A4B5D8 /* Headers */ = {
+		3B7D8AAB8266EFDCE7473FDFD8F40666 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF5D980775D839284C0772F9B418337C /* Pods-GrabIdPartnerSDK_Example-umbrella.h in Headers */,
+				F0E6B8649ADC81AA600AC8C1BE315D36 /* GrabIdPartnerSDK-Bridging-Header.h in Headers */,
+				E2316B9C73637933A48DEC4A2B2FFF83 /* GrabIdPartnerSDK-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		844A34FA477FEED3A500D87EB71486EA /* Headers */ = {
+		655CC0F12617F8A32ECFCA72BC8D131F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFF72E77B9742CB785170B57077AC0D4 /* Pods-GrabIdPartnerSDK_Tests-umbrella.h in Headers */,
+				7A9F9349BAE46A97B71D8897AB4DA9AE /* Pods-GrabIdPartnerSDK_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		96A6415080B00F64D98A894D77513255 /* Headers */ = {
+		A901330B4304819295C80441F3495A8D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAD5D359554852CF2E4C5AED8347DBCA /* GrabIdPartnerSDK-Bridging-Header.h in Headers */,
-				CF90588122894309A483367AF832710E /* GrabIdPartnerSDK-umbrella.h in Headers */,
+				BA9FB3434333757F06D8D27321DEA236 /* Pods-GrabIdPartnerSDK_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,12 +274,12 @@
 /* Begin PBXNativeTarget section */
 		4AD8EC0A7F58631D6BC2F3687BDB1D22 /* GrabIdPartnerSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AC7136812BDD466E657A44C49AA5D6CF /* Build configuration list for PBXNativeTarget "GrabIdPartnerSDK" */;
+			buildConfigurationList = 8FD02D412DB351A601A1E4899CFDF478 /* Build configuration list for PBXNativeTarget "GrabIdPartnerSDK" */;
 			buildPhases = (
-				96A6415080B00F64D98A894D77513255 /* Headers */,
-				1739C7CF8684316CCFFDEDB037CF657B /* Sources */,
-				F88CC0134B92F908CCBE2D7E3F5C0695 /* Frameworks */,
-				379EBB46574112B6D006B924E6EAB500 /* Resources */,
+				3B7D8AAB8266EFDCE7473FDFD8F40666 /* Headers */,
+				38BE7337CE92CC9179B9476CD28C2FDF /* Sources */,
+				1F76E09239052117FFA99FDE4FA9A764 /* Frameworks */,
+				CE83E2E915CBA76C1D3048572C6C4CCC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -285,45 +287,45 @@
 			);
 			name = GrabIdPartnerSDK;
 			productName = GrabIdPartnerSDK;
-			productReference = 77A920BB3D6DA494244A61C518994A2F /* GrabIdPartnerSDK.framework */;
+			productReference = 77A920BB3D6DA494244A61C518994A2F /* GrabIdPartnerSDK */;
 			productType = "com.apple.product-type.framework";
 		};
 		5D042BB620B553E5FC6D27A8B5E42ADE /* Pods-GrabIdPartnerSDK_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7368EC6D1F7D63DB868E4FB7A4EA4938 /* Build configuration list for PBXNativeTarget "Pods-GrabIdPartnerSDK_Example" */;
+			buildConfigurationList = E0D7AADD4AE05789B727527934A6AC5E /* Build configuration list for PBXNativeTarget "Pods-GrabIdPartnerSDK_Example" */;
 			buildPhases = (
-				46869A39AA70BD7BCB3AF70A37A4B5D8 /* Headers */,
-				E42E3E86955D61A9DE81BA735E656160 /* Sources */,
-				898BBFF102E9C00FB3C2AD7CDE1D5C64 /* Frameworks */,
-				C789CF8D4E695836E79DA5B158AC7B87 /* Resources */,
+				655CC0F12617F8A32ECFCA72BC8D131F /* Headers */,
+				0F1A5C2D92889CDEF730D04A653C54C4 /* Sources */,
+				7B26F45A05CF9E4CAA8090547C8B5B16 /* Frameworks */,
+				8B2B6FA5C32445CA901146F91254EA91 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F49D4CF2635AABC892082D9CE0E183BB /* PBXTargetDependency */,
+				20F6BCCCF7CCCFA6BC22807A6817DB91 /* PBXTargetDependency */,
 			);
 			name = "Pods-GrabIdPartnerSDK_Example";
-			productName = "Pods-GrabIdPartnerSDK_Example";
-			productReference = 3472E3E3D6E832D38DD26B82FE4E0E80 /* Pods_GrabIdPartnerSDK_Example.framework */;
+			productName = Pods_GrabIdPartnerSDK_Example;
+			productReference = 3472E3E3D6E832D38DD26B82FE4E0E80 /* Pods-GrabIdPartnerSDK_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 		E6B78874F09EE18109585C41EB9B6651 /* Pods-GrabIdPartnerSDK_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D7DF48F4D374AAEDC94A465B7E7223D0 /* Build configuration list for PBXNativeTarget "Pods-GrabIdPartnerSDK_Tests" */;
+			buildConfigurationList = B1E0C5F7F974107E9DFD454F5B1866C6 /* Build configuration list for PBXNativeTarget "Pods-GrabIdPartnerSDK_Tests" */;
 			buildPhases = (
-				844A34FA477FEED3A500D87EB71486EA /* Headers */,
-				6FE09E8595F177C9F94794AA151C4966 /* Sources */,
-				26C83F21FBD0517DE9FA797A700523E2 /* Frameworks */,
-				FA41E836CFBF60776B343BF2C4046087 /* Resources */,
+				A901330B4304819295C80441F3495A8D /* Headers */,
+				784EBFD3A298397CCA1D04785C70D184 /* Sources */,
+				55C41191EDA36AFB62DD0C181FDD5BC0 /* Frameworks */,
+				30A4F2F262CD7F5C307DAFDD0C574F7F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0898351B9D505A3BD4C7C8BB63498FCF /* PBXTargetDependency */,
+				D33FCA76E77D28211AC620ACB01FC1AF /* PBXTargetDependency */,
 			);
 			name = "Pods-GrabIdPartnerSDK_Tests";
-			productName = "Pods-GrabIdPartnerSDK_Tests";
-			productReference = B6B30A2B4D5A0B5F4EF4186B267002D6 /* Pods_GrabIdPartnerSDK_Tests.framework */;
+			productName = Pods_GrabIdPartnerSDK_Tests;
+			productReference = B6B30A2B4D5A0B5F4EF4186B267002D6 /* Pods-GrabIdPartnerSDK_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -332,18 +334,21 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				Base,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 53CBFCB123B9295F09FC4177B73DFF65 /* Products */;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 100;
+			productRefGroup = 87FAFE5F6DA2F80DC8ABDA5880B9CB39 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -355,21 +360,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		379EBB46574112B6D006B924E6EAB500 /* Resources */ = {
+		30A4F2F262CD7F5C307DAFDD0C574F7F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C789CF8D4E695836E79DA5B158AC7B87 /* Resources */ = {
+		8B2B6FA5C32445CA901146F91254EA91 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FA41E836CFBF60776B343BF2C4046087 /* Resources */ = {
+		CE83E2E915CBA76C1D3048572C6C4CCC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -379,60 +384,61 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1739C7CF8684316CCFFDEDB037CF657B /* Sources */ = {
+		0F1A5C2D92889CDEF730D04A653C54C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C56B07395A11C8728E9B5573FB7FF05A /* AuthorizationCodeGenerator.swift in Sources */,
-				0F91D642FC2110C5771312916AF2CE45 /* GrabApi.swift in Sources */,
-				E1BDF5B5FB5CB54BA4E6BB87E02AD90B /* GrabIdPartnerError.swift in Sources */,
-				98F3A602D1419C22DF5D1309E74DC4AD /* GrabIdPartnerLogin.swift in Sources */,
-				172CA4FE6B62D936816455818E7DFD8C /* GrabIdPartnerSDK-dummy.m in Sources */,
-				219E6489A5DC79700CCCE1BEFE0C2DBF /* IdTokenInfo.swift in Sources */,
-				750CF36C46264DCC664871AAA1340ED7 /* KeychainTokenWrapper.swift in Sources */,
+				7652E535061A6C4F60CC9B601417AC56 /* Pods-GrabIdPartnerSDK_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6FE09E8595F177C9F94794AA151C4966 /* Sources */ = {
+		38BE7337CE92CC9179B9476CD28C2FDF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC74204679709DBFA9511EF4B3103555 /* Pods-GrabIdPartnerSDK_Tests-dummy.m in Sources */,
+				955FB112A41184A138CF484D3A949418 /* AuthorizationCodeGenerator.swift in Sources */,
+				BFD8807689A5094F030458DE9B2906F5 /* GrabApi.swift in Sources */,
+				1CCB31D0A004E580EFCBEBA97F4FD338 /* GrabIdPartnerError.swift in Sources */,
+				C85D419D1BBE93EA1E6382DEBAEEE3FB /* GrabIdPartnerLogin.swift in Sources */,
+				4C750830B24656A4C1C83FA43EC6BDC3 /* GrabIdPartnerSDK-dummy.m in Sources */,
+				1A65F689D8CA13842DED046111970C4B /* IdTokenInfo.swift in Sources */,
+				993379FD7AB8991158E7201ECE8496A5 /* KeychainTokenWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E42E3E86955D61A9DE81BA735E656160 /* Sources */ = {
+		784EBFD3A298397CCA1D04785C70D184 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BFE6724119D9F75A8C4D97C96AF6AE7 /* Pods-GrabIdPartnerSDK_Example-dummy.m in Sources */,
+				B3839314C23256E279F238DB10B205B1 /* Pods-GrabIdPartnerSDK_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0898351B9D505A3BD4C7C8BB63498FCF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-GrabIdPartnerSDK_Example";
-			target = 5D042BB620B553E5FC6D27A8B5E42ADE /* Pods-GrabIdPartnerSDK_Example */;
-			targetProxy = 8DE77DCE281E29F8A9ED2096DC896DE7 /* PBXContainerItemProxy */;
-		};
-		F49D4CF2635AABC892082D9CE0E183BB /* PBXTargetDependency */ = {
+		20F6BCCCF7CCCFA6BC22807A6817DB91 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GrabIdPartnerSDK;
 			target = 4AD8EC0A7F58631D6BC2F3687BDB1D22 /* GrabIdPartnerSDK */;
-			targetProxy = FEBD707C2B55EF8D1AFCC121E9D62C2B /* PBXContainerItemProxy */;
+			targetProxy = D6945A57AF476FEE78FD9A79782C374C /* PBXContainerItemProxy */;
+		};
+		D33FCA76E77D28211AC620ACB01FC1AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GrabIdPartnerSDK_Example";
+			target = 5D042BB620B553E5FC6D27A8B5E42ADE /* Pods-GrabIdPartnerSDK_Example */;
+			targetProxy = AF46DA8DF191A33FF09CFFBACEA522CD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		06928177F8D74268F551B95085CCEC9A /* Release */ = {
+		4EE6D9B4BCB20A1C65242965F260103A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 423E82847878BDDAAF4BEF09355CDF5D /* Pods-GrabIdPartnerSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -441,9 +447,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = "Target Support Files/Pods-GrabIdPartnerSDK_Example/Pods-GrabIdPartnerSDK_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-GrabIdPartnerSDK_Example/Pods-GrabIdPartnerSDK_Example.modulemap";
@@ -461,12 +469,13 @@
 			};
 			name = Release;
 		};
-		10A7BC3F3BA1EDDDFF913F90777CDD7A /* Debug */ = {
+		56077FA138F2D23598D2593EBC55F503 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3D15B7898291B1F22268D3D23C375699 /* Pods-GrabIdPartnerSDK_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -475,9 +484,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = "Target Support Files/Pods-GrabIdPartnerSDK_Tests/Pods-GrabIdPartnerSDK_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-GrabIdPartnerSDK_Tests/Pods-GrabIdPartnerSDK_Tests.modulemap";
@@ -494,75 +505,11 @@
 			};
 			name = Debug;
 		};
-		5505C761481756704A38695CF31A2D6F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A46AA1BF03CF97323E799562C2B9278 /* Pods-GrabIdPartnerSDK_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GrabIdPartnerSDK_Example/Pods-GrabIdPartnerSDK_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GrabIdPartnerSDK_Example/Pods-GrabIdPartnerSDK_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6C13AF0D70B2DBDEDFA34C0BA31DBD75 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1AABBD2447C7CFDB05C8C3B02A9ADC78 /* GrabIdPartnerSDK.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GrabIdPartnerSDK/GrabIdPartnerSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GrabIdPartnerSDK/GrabIdPartnerSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GrabIdPartnerSDK/GrabIdPartnerSDK.modulemap";
-				PRODUCT_MODULE_NAME = GrabIdPartnerSDK;
-				PRODUCT_NAME = GrabIdPartnerSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -585,66 +532,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		916E0404255105F480DC4950B7625F7A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -670,7 +558,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -683,12 +571,75 @@
 			};
 			name = Debug;
 		};
-		A69C2F9A3CD1BB5029CD66EA38AC969B /* Release */ = {
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CFE6716E74720E8BFF100892911D9457 /* Pods-GrabIdPartnerSDK_Tests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A09EAABFCAE87F991491450206BA549B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 684E3D9DF119E3C4885A7EF788615B40 /* GrabIdPartnerSDK.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -697,9 +648,86 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/GrabIdPartnerSDK/GrabIdPartnerSDK-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/GrabIdPartnerSDK/GrabIdPartnerSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GrabIdPartnerSDK/GrabIdPartnerSDK.modulemap";
+				PRODUCT_MODULE_NAME = GrabIdPartnerSDK;
+				PRODUCT_NAME = GrabIdPartnerSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AA90BE64080557BE841B567D41E01574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4854BE86501C8AAE1169B1DBF2D9FD98 /* GrabIdPartnerSDK.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/GrabIdPartnerSDK/GrabIdPartnerSDK-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/GrabIdPartnerSDK/GrabIdPartnerSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GrabIdPartnerSDK/GrabIdPartnerSDK.modulemap";
+				PRODUCT_MODULE_NAME = GrabIdPartnerSDK;
+				PRODUCT_NAME = GrabIdPartnerSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C2E385F32D295F7B90BE026C0E484675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFE6716E74720E8BFF100892911D9457 /* Pods-GrabIdPartnerSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = "Target Support Files/Pods-GrabIdPartnerSDK_Tests/Pods-GrabIdPartnerSDK_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-GrabIdPartnerSDK_Tests/Pods-GrabIdPartnerSDK_Tests.modulemap";
@@ -717,11 +745,13 @@
 			};
 			name = Release;
 		};
-		BF0DCBB43FB500E0C2E03A7984C76B3F /* Debug */ = {
+		F45B64D64608D5983DADB53DF1E5E8DA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1AABBD2447C7CFDB05C8C3B02A9ADC78 /* GrabIdPartnerSDK.xcconfig */;
+			baseConfigurationReference = 6A46AA1BF03CF97323E799562C2B9278 /* Pods-GrabIdPartnerSDK_Example.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -730,18 +760,21 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GrabIdPartnerSDK/GrabIdPartnerSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GrabIdPartnerSDK/GrabIdPartnerSDK-Info.plist";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-GrabIdPartnerSDK_Example/Pods-GrabIdPartnerSDK_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GrabIdPartnerSDK/GrabIdPartnerSDK.modulemap";
-				PRODUCT_MODULE_NAME = GrabIdPartnerSDK;
-				PRODUCT_NAME = GrabIdPartnerSDK;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GrabIdPartnerSDK_Example/Pods-GrabIdPartnerSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -754,35 +787,35 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				916E0404255105F480DC4950B7625F7A /* Debug */,
-				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7368EC6D1F7D63DB868E4FB7A4EA4938 /* Build configuration list for PBXNativeTarget "Pods-GrabIdPartnerSDK_Example" */ = {
+		8FD02D412DB351A601A1E4899CFDF478 /* Build configuration list for PBXNativeTarget "GrabIdPartnerSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5505C761481756704A38695CF31A2D6F /* Debug */,
-				06928177F8D74268F551B95085CCEC9A /* Release */,
+				A09EAABFCAE87F991491450206BA549B /* Debug */,
+				AA90BE64080557BE841B567D41E01574 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AC7136812BDD466E657A44C49AA5D6CF /* Build configuration list for PBXNativeTarget "GrabIdPartnerSDK" */ = {
+		B1E0C5F7F974107E9DFD454F5B1866C6 /* Build configuration list for PBXNativeTarget "Pods-GrabIdPartnerSDK_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BF0DCBB43FB500E0C2E03A7984C76B3F /* Debug */,
-				6C13AF0D70B2DBDEDFA34C0BA31DBD75 /* Release */,
+				56077FA138F2D23598D2593EBC55F503 /* Debug */,
+				C2E385F32D295F7B90BE026C0E484675 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D7DF48F4D374AAEDC94A465B7E7223D0 /* Build configuration list for PBXNativeTarget "Pods-GrabIdPartnerSDK_Tests" */ = {
+		E0D7AADD4AE05789B727527934A6AC5E /* Build configuration list for PBXNativeTarget "Pods-GrabIdPartnerSDK_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				10A7BC3F3BA1EDDDFF913F90777CDD7A /* Debug */,
-				A69C2F9A3CD1BB5029CD66EA38AC969B /* Release */,
+				F45B64D64608D5983DADB53DF1E5E8DA /* Debug */,
+				4EE6D9B4BCB20A1C65242965F260103A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,10 +1,19 @@
-platform :ios, '9.0'
+platform :ios, '15.0'
 use_frameworks!
 
 target 'GrabIdPartnerSDK_Example' do
-  pod 'GrabIdPartnerSDK', :git => 'https://github.com/grab/grabplatform-sdk-ios.git'
+  pod 'GrabIdPartnerSDK', :path => '../'
 
   target 'GrabIdPartnerSDK_Tests' do
     inherit! :search_paths
+  end
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    next unless target.name == 'GrabIdPartnerSDK'
+    target.build_configurations.each do |config|
+      config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
+    end
   end
 end

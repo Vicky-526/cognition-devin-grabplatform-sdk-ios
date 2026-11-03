@@ -1,16 +1,15 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "CryptoSwift",
-        "repositoryURL": "https://github.com/grab/CryptoSwift.git",
-        "state": {
-          "branch": "1.7.1+LibEvolution",
-          "revision": "02986d9a7cb21bff190cc9faf4ef1063fa03c162",
-          "version": null
-        }
+  "originHash" : "c8a1c92998943b926d059c17714c55ae7b32d53b7f131f17bbb1eb8495a18512",
+  "pins" : [
+    {
+      "identity" : "cryptoswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/grab/CryptoSwift.git",
+      "state" : {
+        "branch" : "1.7.1+LibEvolution",
+        "revision" : "02986d9a7cb21bff190cc9faf4ef1063fa03c162"
       }
-    ]
-  },
-  "version": 1
+    }
+  ],
+  "version" : 3
 }
