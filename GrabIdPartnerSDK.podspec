@@ -13,12 +13,12 @@ Pod::Spec.new do |s|
   s.summary          = 'GrabIdPartner SDK for OAuth2.0 support.'
   s.description      = 'The GrabIdPartner SDK allows users to sign in with their Grab account from third-party apps.'
   s.homepage         = 'https://github.com/grab/grabplatform-sdk-ios'
-  s.swift_version    = '4.0'
+  s.swift_versions   = ['5.0']
   s.license          = { :type => 'Copyright', :text => 'Copyright (c) 2018 GrabTaxi Pte Ltd.', :file => 'LICENSE' }
   s.author           = { 'GrabTaxi Pte Ltd.' => 'http://grab.com' }
   s.source           = { :git => 'https://github.com/grab/grabplatform-sdk-ios.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '15.0'
 
   s.source_files = 'GrabIdPartnerSDK/Classes/**/*'  
 end

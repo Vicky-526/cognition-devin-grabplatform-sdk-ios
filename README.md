@@ -43,14 +43,14 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ## Requirements
 
 ### Swift Package Manager (SPM)
-- iOS 13.0+
-- Xcode 14.0+
-- Swift 5.5+
+- iOS 15.0+
+- Xcode 16.0+ (swift-tools-version 6.0)
+- Swift 5 language mode
 
 ### CocoaPods
-- iOS 9.0+
-- Xcode 9.0+
-- Swift 3.2 / 4.1+
+- iOS 15.0+
+- Xcode 16.0+
+- Swift 5.0+
 - Objective-C
 
 ## Analytics
@@ -70,7 +70,7 @@ If there are multiple Framework with same name in “Linked Frameworks and Libra
 
 ### Swift Package Manager (Recommended)
 
-**Requirements: iOS 13.0+**
+**Requirements: iOS 15.0+**
 
 #### Via Xcode:
 1. Go to **File > Add Packages...**
@@ -87,7 +87,7 @@ dependencies: [
 
 ### CocoaPods
 
-**Requirements: iOS 9.0+**
+**Requirements: iOS 15.0+**
 
 Alternatively, the following command can be used in Podfile
 
